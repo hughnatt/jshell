@@ -1,9 +1,7 @@
 CC=gcc
 CFLAGS=-Wall -Werror -g
 
-all: tst shell
-
-tst: tst.o readcmd.o
+all: shell
 
 shell: shell.o readcmd.o
 
